@@ -1,0 +1,54 @@
+.clock-container {
+  /* background-color: #ffffff15; */
+  border-radius: 16px;
+  padding: 30px 50px 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: color;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: color;
+}
+
+.heading {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.time {
+  color: white;
+  font-size: 60px;
+  margin: 20px;
+  font-family: 'Roboto';
+}
+
+@keyframes color {
+  0% {
+    background: #33cccc;
+  }
+
+  20% {
+    background: #33cc36;
+  }
+
+  40% {
+    background: #b8cc33;
+  }
+
+  60% {
+    background: #fcca00;
+  }
+
+  80% {
+    background: #33cc36;
+  }
+
+  100% {
+    background: #33cccc;
+  }
+}
